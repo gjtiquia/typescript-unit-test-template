@@ -30,7 +30,10 @@ Create `tsconfig.json` file with the following configuration.
 {
     "compilerOptions": {
         "strict": true,
-        "esModuleInterop": true
+        "module": "NodeNext",
+        "target": "es6",
+        "esModuleInterop": true,
+        "moduleResolution": "NodeNext"
     }
 }
 ```
