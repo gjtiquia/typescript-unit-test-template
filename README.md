@@ -1,19 +1,19 @@
 # TypeScript Unit Test Template
 
-A minimal template for setting up a TypeScript project with unit tests with [ts-jest](https://kulshekhar.github.io/ts-jest/).
+A minimal template for setting up a TypeScript project with unit tests with [ts-jest](https://kulshekhar.github.io/ts-jest/) and bundling with [tsup](https://tsup.egoist.dev/).
 
 ## Commands
 
 Run the tests.
 
 ```bash
-npm run test
+npm test
 ```
 
-Compile src/index.ts into dist/index.js and run.
+Compile `src/index.ts` into `dist/index.js` and run with `node`.
 
 ```bash
-npm run start
+npm start
 ```
 
 ## Setup Steps
